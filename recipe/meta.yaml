@@ -1,4 +1,4 @@
-{% set version = '7.3-45' %}
+{% set version = '7.3-48' %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/MASS_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/MASS/MASS_{{ version }}.tar.gz
-  sha256: 5de3241407c6e12de99ed7986e9d30dd07a25056b3ae8c5cbd760998422a978e
+  sha256: 0dfffb2344720acb3b8bb694ba8e23615bd96f2c495cf76d7fe22690d42a090b
 
 build:
   number: 0
