@@ -14,14 +14,16 @@ Summary: Functions and datasets to support Venables and Ripley, "Modern Applied 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-mass-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-mass-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-mass-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-mass-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-mass-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-mass-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-mass-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-mass-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-mass-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-mass-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-mass-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-mass-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-mass/badges/version.svg)](https://anaconda.org/conda-forge/r-mass)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-mass/badges/downloads.svg)](https://anaconda.org/conda-forge/r-mass)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--mass-green.svg)](https://anaconda.org/conda-forge/r-mass) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-mass.svg)](https://anaconda.org/conda-forge/r-mass) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-mass.svg)](https://anaconda.org/conda-forge/r-mass) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-mass.svg)](https://anaconda.org/conda-forge/r-mass) |
 
 Installing r-mass
 =================
