@@ -1,11 +1,22 @@
+About r-mass-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mass-feedstock/blob/main/LICENSE.txt)
+
 About r-mass
-============
+------------
 
 Home: http://www.stats.ox.ac.uk/pub/MASS4/
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mass-feedstock/blob/main/LICENSE.txt)
+Summary: Functions and datasets to support Venables and Ripley, "Modern Applied Statistics with S" (4th edition, 2002).
+About r-mass
+------------
+
+Home: http://www.stats.ox.ac.uk/pub/MASS4/
+
+Package license: GPL-2.0-or-later
 
 Summary: Functions and datasets to support Venables and Ripley, "Modern Applied Statistics with S" (4th edition, 2002).
 
