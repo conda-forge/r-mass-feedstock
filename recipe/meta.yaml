@@ -1,4 +1,4 @@
-{% set version = "7.3-58.3" %}
+{% set version = "7.3-59" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/MASS_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/MASS/MASS_{{ version }}.tar.gz
-  sha256: 42e5599582dca0d32bc9c709216ddc71df1761af23f11cfa25d582212a5c79ae
+  sha256: 454200bec7a52835fbb7f9fe8e01a7aaa728b3ab87b068fc6d900e01c930da5a
 
 build:
   merge_build_host: true  # [win]
