@@ -1,4 +1,4 @@
-{% set version = "7.3-60.0.1" %}
+{% set version = "7.3-61" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,12 +9,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/MASS_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/MASS/MASS_{{ version }}.tar.gz
-  sha256: 74df93593029b803d78902c95eddcaa2e7e9ed186ab0be40b56f3f8bfd13adbd
+  sha256: 3144c8bf579dd7b7c47c259728c27f53f53e294e7ed307da434dfd144e800a90
 
 build:
   # Checking windows to see if it passes. Uncomment the line if it fails.
   # skip: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
