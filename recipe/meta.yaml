@@ -12,7 +12,7 @@ source:
   sha256: bf313725b97fcf69fed86d1f70889ea612bfa9095f36aab47181cc76a8cdbb7f
 
 build:
-  skip: true  # [r_base == "4.4"]
+  skip: true  # [r_base == "4.3"]
   number: 0
   rpaths:
     - lib/R/lib/
