@@ -1,15 +1,15 @@
-{% set version = "7.3-65" %}
+{% set version = "7.3-66" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
   name: r-mass
-  version: {{ version|replace("-", "_") }}
+  version: "{{ version|replace('-', '_') }}"
 
 source:
   url:
     - {{ cran_mirror }}/src/contrib/MASS_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/MASS/MASS_{{ version }}.tar.gz
-  sha256: b07ef1e3c364ce56269b4a8a7759cc9f87c876554f91293437bb578cfe38172f
+  sha256: 59c619c70bfca653f1c74aef880e69405daefd0134e716a1862ecc5334b4e155
 
 build:
   number: 0
